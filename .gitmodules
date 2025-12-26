@@ -1,0 +1,18 @@
+[submodule "custom_nodes/ComfyUI-EulerDiscreteScheduler"]
+	path = custom_nodes/ComfyUI-EulerDiscreteScheduler
+	url = https://github.com/erosDiffusion/ComfyUI-EulerDiscreteScheduler.git
+[submodule "custom_nodes/ComfyUI-KJNodes"]
+	path = custom_nodes/ComfyUI-KJNodes
+	url = https://github.com/kijai/ComfyUI-KJNodes.git
+[submodule "custom_nodes/ComfyUI-Manager"]
+	path = custom_nodes/ComfyUI-Manager
+	url = https://github.com/Comfy-Org/ComfyUI-Manager.git
+[submodule "custom_nodes/ComfyUI-VideoHelperSuite"]
+	path = custom_nodes/ComfyUI-VideoHelperSuite
+	url = https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
+[submodule "custom_nodes/ComfyUI-WanVideoWrapper"]
+	path = custom_nodes/ComfyUI-WanVideoWrapper
+	url = https://github.com/kijai/ComfyUI-WanVideoWrapper.git
+[submodule "custom_nodes/rgthree-comfy"]
+	path = custom_nodes/rgthree-comfy
+	url = https://github.com/rgthree/rgthree-comfy.git
