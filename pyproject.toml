@@ -45,6 +45,7 @@ dependencies = [
     "matplotlib>=3.9.4",
     "huggingface-hub>=0.36.0",
     "onnx>=1.19.1",
+    "loguru>=0.7.3",
 ]
 
 [tool.uv.sources]
