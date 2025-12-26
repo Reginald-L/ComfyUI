@@ -1,4 +1,22 @@
 # 备注
+
+## 如何使用
+```bash
+git clone --recursive <git repo link>
+```
+如果已经克隆项目,但是忘记拉取submodules, 执行以下指令
+```bash
+git submodule update --init --recursive
+```
+Note: `git pull` 只会拉取主项目文件, 不会自动更新submodules中的内容, 如果想要一起更新, 执行
+```bash
+# 拉取主项目更新，同时更新所有子模块到主项目记录的那个版本
+git pull --recurse-submodules
+
+# 手动更新所有子模块
+git submodule update --remote --merge
+```
+
 ## git clone组件后在提交前自动注册为submodule
 在.git/hooks中新建pre-commit文件, 没有任何后缀, 将以下代码写入
 
