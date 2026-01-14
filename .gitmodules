@@ -28,6 +28,6 @@
 [submodule "custom_nodes/ComfyUI_Comfyroll_CustomNodes"]
 	path = custom_nodes/ComfyUI_Comfyroll_CustomNodes
 	url = https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git
-[submodule "custom_nodes/comfyui_LLM_party"]
-	path = custom_nodes/comfyui_LLM_party
-	url = https://github.com/heshengtao/comfyui_LLM_party.git
+[submodule "custom_nodes/ComfyUI_RH_LLM_API"]
+	path = custom_nodes/ComfyUI_RH_LLM_API
+	url = https://github.com/HM-RunningHub/ComfyUI_RH_LLM_API.git
