@@ -1,3 +1,4 @@
+# 2026.01.23
 [project]
 name = "ComfyUI"
 version = "0.10.0"
@@ -77,9 +78,14 @@ torchaudio = [
 flash-attn = { git = "https://github.com/Dao-AILab/flash-attention", tag = "v2.8.0" }
 
 [[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+default = true
+
+[[tool.uv.index]]
 name = "pytorch-cu128"
 url = "https://download.pytorch.org/whl/cu128"
-explicit = true
+#explicit = true
 
 
 [tool.uv.extra-build-dependencies]
